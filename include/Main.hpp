@@ -32,8 +32,10 @@ using namespace Spinnaker::GenICam;
 
 #include <modbus.h>
 
-const int module_n = 3;
-const char servo_address[] = "192.168.1.33";
+const int module_n = 0;           // change this to match which kife you want to control
+const char servo_address[] = "";  // change this to be the ip address of the servo you want to control
+
+// these changes will require a recompile
 
 struct Images{
     cv::Mat current_image;
