@@ -1,1 +1,1 @@
-20439787
+change this file to contain only the camera serial number
