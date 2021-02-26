@@ -9,3 +9,8 @@ this can be downloaded from the Github code server with this link:
 
 The code can be compiled on the machine with this series of commands:
 
+
+
+To get the program to run automatically, copy the ACS.service file to this directory:
+
+# /lib/systemd/system/
