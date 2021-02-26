@@ -1,0 +1,14 @@
+[Unit]
+Description=Antioch Coater Slitter
+After=multi-user.target
+
+[Service]
+Type=idle
+User=pi
+WorkingDirectory=/home/pi/Desktop/ACS
+ExecStart=sudo /home/pi/Desktop/ACS/build/ACS
+Restart=always
+RestartSec=10s
+
+[Install]
+WantedBy=multi-user.target
